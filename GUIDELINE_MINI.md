@@ -70,5 +70,5 @@ Ghi **frame cụ thể** và **ID cụ thể**, không ghi chung chung.
 
 Luật nào trong file này hoá ra còn thiếu hoặc còn mơ hồ? Viết lại cho rõ:
 
-- `...`
-- `...`
+- `Nếu xe bị che dưới 25 frame thì giữ nguyên ID; từ 25 frame trở lên hoặc không chắc đó là cùng xe thì tạo ID mới.`
+- `Khi xe đi vào, đi ra hoặc bị che, bbox chỉ ôm phần nhìn thấy; cần kiểm tra lại frame đầu, frame cuối và frame giữa để tránh bbox bị lệch.`
